@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/project-2/static/css/main.fed0b5f4.chunk.css",
-    "main.js": "/project-2/static/js/main.c02a48e6.chunk.js",
-    "main.js.map": "/project-2/static/js/main.c02a48e6.chunk.js.map",
+    "main.css": "/project-2/static/css/main.116bfe28.chunk.css",
+    "main.js": "/project-2/static/js/main.e44ea0ed.chunk.js",
+    "main.js.map": "/project-2/static/js/main.e44ea0ed.chunk.js.map",
     "runtime-main.js": "/project-2/static/js/runtime-main.8d40b140.js",
     "runtime-main.js.map": "/project-2/static/js/runtime-main.8d40b140.js.map",
-    "static/js/2.9ab7d5cf.chunk.js": "/project-2/static/js/2.9ab7d5cf.chunk.js",
-    "static/js/2.9ab7d5cf.chunk.js.map": "/project-2/static/js/2.9ab7d5cf.chunk.js.map",
+    "static/js/2.fe3fdc6e.chunk.js": "/project-2/static/js/2.fe3fdc6e.chunk.js",
+    "static/js/2.fe3fdc6e.chunk.js.map": "/project-2/static/js/2.fe3fdc6e.chunk.js.map",
     "index.html": "/project-2/index.html",
-    "precache-manifest.e234ba036921bb5b402bde36c51ec21b.js": "/project-2/precache-manifest.e234ba036921bb5b402bde36c51ec21b.js",
+    "precache-manifest.d1f09111a8b3b1ae76194e6c3428a25c.js": "/project-2/precache-manifest.d1f09111a8b3b1ae76194e6c3428a25c.js",
     "service-worker.js": "/project-2/service-worker.js",
-    "static/css/main.fed0b5f4.chunk.css.map": "/project-2/static/css/main.fed0b5f4.chunk.css.map",
-    "static/media/App.css": "/project-2/static/media/assorted.a6252c2c.jpg",
-    "static/media/background.jpg": "/project-2/static/media/background.abd275fa.jpg",
+    "static/css/main.116bfe28.chunk.css.map": "/project-2/static/css/main.116bfe28.chunk.css.map",
+    "static/media/assorted-color.jpg": "/project-2/static/media/assorted-color.c78874f5.jpg",
     "static/media/beautiful.jpg": "/project-2/static/media/beautiful.b230946c.jpg",
-    "static/media/ina-soulis.jpg": "/project-2/static/media/ina-soulis.c4277627.jpg"
+    "static/media/bloom.jpg": "/project-2/static/media/bloom.9b2bf72e.jpg",
+    "static/media/ina-soulis.jpg": "/project-2/static/media/ina-soulis.c4277627.jpg",
+    "static/media/App.css": "/project-2/static/media/top.693bc387.jpg",
+    "static/media/white-and-pink.jpg": "/project-2/static/media/white-and-pink.183c8895.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8d40b140.js",
-    "static/js/2.9ab7d5cf.chunk.js",
-    "static/css/main.fed0b5f4.chunk.css",
-    "static/js/main.c02a48e6.chunk.js"
+    "static/js/2.fe3fdc6e.chunk.js",
+    "static/css/main.116bfe28.chunk.css",
+    "static/js/main.e44ea0ed.chunk.js"
   ]
 }
