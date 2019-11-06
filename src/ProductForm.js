@@ -1,5 +1,7 @@
 
 import React, {Component} from 'react';
+import {Button} from 'react-bootstrap'; 
+
 
 
 class ProductForm extends Component {
@@ -22,8 +24,9 @@ class ProductForm extends Component {
     render () {
       return (
         <form ref="form" onSubmit={this.onSubmit} className="form-inline">
-          <input type="text" ref="itemName" className="form-control" placeholder="add a new todo..."/>
-          <button type="submit" className="btn btn-default">Add</button> 
+          <input type="text" ref="itemName" className="form-control" placeholder="add a new Task..."/>
+          <br/> 
+          <Button type="submit" variant="outline-success" className="btn btn-default"> Add</Button> 
         </form>
       );   
     }

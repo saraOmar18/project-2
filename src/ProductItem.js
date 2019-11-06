@@ -1,4 +1,5 @@
 import React from 'react';
+import {Button} from 'react-bootstrap'; 
 
 class ProductItem extends React.Component {
   
@@ -24,7 +25,7 @@ class ProductItem extends React.Component {
             <div className={todoClass}>
               <span  className="glyphicon glyphicon-ok" aria-hidden="true" onClick={this.onClickDone}></span>
               {this.props.item.value}
-              <button type="button" className="close" onClick={this.onClickClose}>&times;</button>
+              <Button variant="outline" type="button" className="close" onClick={this.onClickClose}>&times;</Button>
             </div> 
           </li>     
         );

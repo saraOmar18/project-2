@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import AddedProduct from './AddedProduct'; 
 import ProductForm from './ProductForm' ; 
+import {Button} from 'react-bootstrap'; 
 
 const productArray = [
     {
@@ -65,15 +66,15 @@ class ProductList extends Component {
     return(
 
         <div id="main">
-            <p>ProductList page </p>
+            <p>Task List Page </p>
             <AddedProduct productItems={this.state.productItem} 
             removeItem={this.removeItem} 
             markTodoDone={this.markTodoDone}/>
             <ProductForm addItem={this.addItem} />
            
 
-        <button onClick={this.clearList}> 
-        Clear All Product !  </button>
+        <Button className="form-inline variant"  variant="outline-danger" onClick={this.clearList}> 
+        Remove All List   </Button>
        
 
         </div>
