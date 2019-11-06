@@ -6,16 +6,16 @@ import {Button} from 'react-bootstrap';
 const productArray = [
     {
       index:1,
-      value:"Gloss",
+      value:"Go Shopping ",
       done:false },
       {
         index:2,
-        value:"lipstick",
+        value:"Read A Book ",
         done:false
       },
       {
         index:3,
-        value:"Powder",
+        value:"Watch TV ",
         done:false
       }
     

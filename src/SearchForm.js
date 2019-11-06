@@ -1,8 +1,9 @@
 import React from 'react'; 
 import Cosmetics from './Cosmetics' ; 
+import { Container}from 'react-bootstrap'; 
+
 
 const SearchForm=(props) => {
-  console.log(props.allcosmetics);
 
   const all=props.allcosmetics.map((item,index) => {
       return <Cosmetics url={item.download_url} key={index}/> 
@@ -10,9 +11,14 @@ const SearchForm=(props) => {
     })
     
     return(
-        <div>
-         {all}
-        </div>
+        <Container className="row">
+          
+           {all}
+           
+       
+        </Container>
+         
+        
         
     )
 } 
